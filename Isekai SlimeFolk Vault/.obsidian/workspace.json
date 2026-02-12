@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dff6d820f3681713",
+        "id": "1b6df12629e2411e",
         "type": "tabs",
         "children": [
           {
-            "id": "288756077ca39240",
+            "id": "90cb6cecb468de9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,27 +183,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "288756077ca39240",
+  "active": "90cb6cecb468de9b",
   "lastOpenFiles": [
-    "Datasheet Locaciones.md",
-    "Historias/Inicio.md",
-    "Tutorial del deck.md",
-    "nombre.md",
-    "Historias",
+    "Concept para Construir Deck.md",
+    "04_Desarrollo_Godot/Datasheet Locaciones.md",
+    "04_Desarrollo_Godot/NPC Datable datasheet.md",
     "GDD.md",
-    "Imagenes/Medabot Sistem.png",
-    "Imagenes/Sistema de Seleccion de Heroes.png",
-    "NPC Datable datasheet.md",
+    "Inventory System.md",
+    "03_Mundo_y_Lore/Historias/Inicio.md",
+    "05_Recursos",
+    "04_Desarrollo_Godot",
+    "03_Mundo_y_Lore",
+    "02_Inventario_y_progreso",
+    "01_Entidades",
+    "00_Sistemas_Core",
+    "nombre.md",
+    "03_Mundo_y_Lore/Historias",
+    "05_Recursos/Imagenes/Medabot Sistem.png",
+    "05_Recursos/Imagenes/Sistema de Seleccion de Heroes.png",
     "2026-02-09.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Personajes/Lezzy - La chica Goblin.md",
-    "Imagenes/EstrellaElemental.png",
-    "Imagenes",
-    "GDD2.md",
-    "Personajes/Diosa.md",
+    "01_Entidades/Personajes/Lezzy - La chica Goblin.md",
+    "05_Recursos/Imagenes/EstrellaElemental.png",
+    "05_Recursos/Imagenes",
+    "01_Entidades/Personajes/Diosa.md",
     "GDD 2.md",
     "GDD - General.md",
-    "Personajes"
+    "01_Entidades/Personajes"
   ]
 }

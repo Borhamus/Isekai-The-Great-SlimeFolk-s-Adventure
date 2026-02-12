@@ -2,10 +2,11 @@
 Godot-4.6/
 .Godot-4.6/
 
-# Referencias para NPC's Dateables
-Referencias para NPC's Dateables/
-*.Referencias para NPC's Dateables
+# Aca guardo proyectos de Godot
+Proyectos_Godot/
+.Proyectos_Godot/
 
-# Test de godot
-Test/
+# Aca guardo addons, y recursos como imagenes, texturas, etc
+Recursos/
+.Recursos/
 
