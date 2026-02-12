@@ -24,12 +24,54 @@ RPG de gestión y Deck-Building con progresión horizontal. El poder del jugador
 
 ### El Cataclismo (El Cisma y el Retorno)
 *   **La Guerra:** Las ideologías chocaron. La Luz ganó y desterró a la Oscuridad al **Vacío Abisal**.
-*   **El Retorno:** Los Dioses Oscuros regresaron, corruptos por el rencor. Petrificaron a los 5 Dioses Hijos de la Luz, convirtiéndolos en **5 Torres Colosales**.
+*   **El Retorno:** Los Dioses Oscuros regresaron, corruptos por el rencor. En un intento desesperado por detenerlos, Los Dioses Hijos de la Luz utilizaron todo su poder, convirtiéndose en 5 torres mágicas enormes de energía, dedicadas a mantener encerrados a los dioses malignos, evitando que se propaguen y arrasen con el mundo. Sin embargo, las fuerzas malignas continuaron aumentando, desbordando las torres, las cuales a penas lograban contener su poder, teniendo que crecer hacia las alturas progresivamente para mantenerlos a raya. 
 *   **El Rey Demonio:** El Dios de la Oscuridad se asentó en un **Volcán Gigante**, cubriendo el cielo de cenizas.
 
 ### El Estado Actual: La Eterna Penumbra
-El mundo se muere. El cielo es gris, la flora se marchita y la gente ha perdido la fe.
+Los Dioses Hijos de la Luz han dejado a su gente desprotegida, al usar todo su poder en las torres. La gente ha perdido su fé. La flora se marchita. El cielo es gris. El mundo muere lentamente, permitiendo que El Rey Oscuro siembre tinieblas y tormento, matando a los seguidores de La Diosa de La Luz y condenandola al olvido.
 *   **Tú:** Invocado por el último suspiro de la Diosa de la Luz. Eres el **Campeón de la Fe**.
+
+
+
+---
+## El Personaje Jugador (Protagonista)
+
+Además de comandar Summons, el protagonista tiene sus propias estadísticas para interactuar con el mundo fuera del combate.
+
+### Atributos Principales (Stats)
+*   **Mente:** Influencia diálogos, labia y capacidad de convencimiento. (Sirve para los diálogos)
+*   **Cuerpo:** Fuerza para mover objetos pesados y resistencia física. (Sirve para el sexo)
+*   **Magia:** Mana y capacidad para usar hechizos fuera de combate (Sirve para el combate y mecánicas del juego).
+
+Aumentar el stat de Cuerpo, permite prolongar cada vez más las escenas de sexo, desbloqueando diálogos / escenas extra.
+Aumentar el stat de Mente mejora el trato de los NPC's hacia vos, desbloqueando más opciones.
+
+Quiero crear algo de subir que sea facil, pero que tome un poco de tiempo, como que 
+los stats van de 1 a 5, pero que subir 1 punto cueste un poco, pero que al tener varios summons al nivel maximo, puedas tener al personaje 5 en todo. no me interesa que sea muy dificil de maxear el juego, porque, de nuevo, es todo sobre una progresión horizontal, yo quiero que maxie las rutas, conozca los personajes, sea fácil de jugar la historia y las peleas sean el core.
+
+Quizás podría armar mas adelante puzzles de cómo vencer a tal enemigo con estos poderes y así, para crear mas desafíos.
+
+---
+## Sistema de NPCs y Summons (El Motor del Juego)
+
+Cada NPC tiene una vida en el pueblo, pero su fe proyecta un **Summon** que pelea contigo. Relación medida en **6 Corazones**.
+
+### Tabla de Progresión del Summon
+
+| Corazón  | Desbloqueo       | Efecto en el Summon                                                                                                                                                                                                                             |
+| :------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **❤️ 1** | **Despertar**    | Se une al equipo. Gana **1 Elemento Aleatorio** (de 5). Aprende 1er poder.                                                                                                                                                                      |
+| **❤️ 2** | **Vínculo**      | Gana **2do Elemento Aleatorio**. Aprende 2do poder.                                                                                                                                                                                             |
+| **❤️ 3** | **Evolución 1**  | Gana **3er Elemento Aleatorio**. Aprende 3er poder. <br>**Evoluciona** (Nuevo sprite, +Stats). <br>**1 Ranura de Runa** (Para equipar objetos). <br>                                                                                            |
+| **❤️ 4** | **Maestría**     | Gana **4to Elemento Aleatorio**.  Gana una pasiva.                                                                                                                                                                                              |
+| **❤️ 5** | **Omnielemento** | Gana el **5to y último Elemento**. Ahora domina todos los elementos comunes.Aprende 4to poder.                                                                                                                                                  |
+| **❤️ 6** | **Fanatismo**    |  **2da Evolución** (Aspecto Divino/Demoníaco, ++Stats). <br> **2da Ranura de Runa** (Total: 2). <br> **Intercambio de Esencia:** Permite swappear elementos/pasivas con otros Nivel 6. <br> **Desbloqueo H:** Escena sexual y minijuego íntimo. |
+
+### Reglas de los Summons
+*   **Tipos:** Fijos al nacer (Atacante, Defensor, Soporte). No cambian.
+*   **Elementos:** Aleatorios al subir de nivel. Al tener los 5 desbloqueados, **puedes cambiar libremente el elemento activo fuera de combate** para adaptarte a la misión.
+*   **Intercambio:** Solo al Nivel 6 puedes cambiar los poderes.
+
 
 ---
 ## Sistema de Combate: 
@@ -47,12 +89,12 @@ El combate es por turnos con resolución basada en velocidad.
 - **Modificadores Elementales:** Las habilidades son neutras, pero los Summons tienen un elemento seleccionado y sus habilidades escalan con el elemento activo del Summon (Fuego, Metal, Madera, Tierra, Agua, Luz, Oscuridad).
 
 ### El Libro de Monstruos (Gestor de Decks)
-*   Comienzas con 3 slots de Summons, puedes desbloquear más (6).
+*   Comienzas con 3 slots de Summons, puedes desbloquear más (6 o 9 a definir).
 *   **Composición de un Deck:**
-    *   **3-6 Summons** (Las unidades que pelean).
-    *   **6 Cartas de Consumibles.**
-    *   **6 Cartas de Equipo.**
-    *   **6 Cartas de Magia.**
+    *   **3-9 Summons** (Las unidades que pelean).
+    *   **6 Consumibles.**
+    *   **6 Runas.**
+    *   **6 Magias.**
 *   **Mazo de Batalla:** Al entrar en pelea, las 18 cartas se mezclan en un solo mazo.
 
 ### Flujo del Combate (Turno a Turno)
@@ -81,11 +123,11 @@ Los Summons tienen slots (Ranuras) para equiparse con poderosas runas que le per
     *   Runa de Soporte.
 *   *Nota:* Los Summons entran desarmados a la batalla; debes equiparlos en combate.
 ### B. Magias
-El heroe ira ganando poderosas magias a lo largo del mundo, que podrá conjurar fuera y dentro de combate para cambiar la realidad a su favor, pero esto consumirá mana.
+El heroe ira ganando poderosas magias a lo largo del juego, que podrá conjurar fuera y dentro de combate para cambiar la realidad a su favor, pero esto consumirá mana.
 *   **Slots:** Si bien hay muchas cartas magias en el mundo, para combatir solo tendras un minimo de 1 y un maximo de 6 slots para equipar estas magias a tu deck, de todas las que tengas.
-*   *Nota:* Solo puede haber un efecto de escenario activo por combate a la vez, si se activa otro efecto de escenario el nuevo remplaza al viejo.
+*   *Nota:* Solo puede haber un efecto de escenario activo por combate a la vez, si se activa otro efecto de escenario, el nuevo remplaza al viejo.
 ### C. Consumibles
-El heroe ira ganando objetos consumibles a lo largo del mundo, como pociones, comidas, bebidas, etc, que podrá darle a sus summons para que consuman en un combate o fuera del combate, pero al usarlos, estos items se consumen y deberas comprarlos denuevo para poder tenerlos.(si tienen mas en el inventario se autorellena el slot de consumibles que configuraste)
+El héroe ira ganando objetos consumibles a lo largo del mundo, como pociones, comidas, bebidas, etc., que podrá darle a sus summons para que consuman en un combate o fuera del combate, pero al usarlos, estos items se consumen y deberas comprarlos de nuevo para poder tenerlos.(si tienen mas en el inventario se autorellena el slot de consumibles que configuraste)
 *   **Slots:** Si bien hay muchos consumibles en el mundo, para combatir solo tendras un minimo de 1 y un maximo de 6 slots para elegir de tus consumibles y estos se usan inmediatamente al jugarlas.
 *   *Nota:* Hay efectos de consumibles que se disparan inmediatamente consumidos y otros que tienen efectos de varios turnos.
 
@@ -102,7 +144,7 @@ El objetivo es que al **Nivel 6 (Fanatismo)**, todos los Summons alcancen un **B
     
 - **Habilidades Únicas:** La **Pasiva** de cada Summon es inamovible y define su identidad competitiva ligada al NPC.
     
-- **Personalización:** Permite crear combinaciones "rotas" (Ej: Un defensor con pasiva de tanque usando una habilidad de curación de un soporte).
+- **Personalización:** Permite crear combinaciones de tipo competitivo (Ej: Un defensor con pasiva de tanque usando una habilidad de curación de un soporte).
     
 
 ---
@@ -111,13 +153,13 @@ El objetivo es que al **Nivel 6 (Fanatismo)**, todos los Summons alcancen un **B
 
 El acceso a la gestión se realiza mediante una interfaz de libros.
 
-|**Libro**|**Función Principal**|**Contenido**|
-|---|---|---|
-|**Summon Book**|Gestión de Unidades|Stats, Evoluciones, Cambio de Elemento, Equipamiento de Habilidades.|
-|**Runes Book**|Equipamiento Pasivo|2 Slots (desbloqueados en ❤️3 y ❤️6) para objetos de ataque/defensa.|
-|**Heart Book**|Relaciones y Social|Progreso de NPCs, Log de diálogos y Galería H.|
-|**Spell Book**|Magia del Protagonista|Cartas que consumen Maná del jugador.|
-|**Bolsa**|Consumibles|Objetos de un solo uso para aplicar a Summons en combate.|
+| **Libro**       | **Función Principal**  | **Contenido**                                                                                         |
+| --------------- | ---------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Summon Book** | Gestión de Unidades    | Stats, Evoluciones, Cambio de Elemento, Equipamiento de Habilidades.                                  |
+| **Runes Book**  | Equipamiento Pasivo    | 2 Slots (desbloqueados en ❤️3 y ❤️6) para objetos de ataque/defensa.                                  |
+| **Heart Book**  | Relaciones y Social    | Progreso de NPCs, Info de NPC's (separados en dateables y no dateables), Log de diálogos y Galería H. |
+| **Spell Book**  | Magia del Protagonista | Cartas que consumen Maná del jugador.                                                                 |
+| **Bolsa**       | Consumibles            | Objetos de un solo uso para aplicar a Summons en combate.                                             |
 
 ---
 
@@ -125,7 +167,7 @@ El acceso a la gestión se realiza mediante una interfaz de libros.
 
 Para el primer prototipo funcional:
 
-1. **6 NPCs:** Cada uno con su historia y tabla de gustos.
+1. **6 NPCs:** Cada uno con su historia y tabla de gustos. (y lugar dónde suele estar, ej: "lo has encontrado en: ...)
     
 2. **6 Summons:** Uno por cada NPC inicial.
     
@@ -137,14 +179,15 @@ Para el primer prototipo funcional:
 ---
 
 ## Artefactos (Poder Pasivo)
+**Artefactos Comunes:** 
 Se guardan en el inventario y otorgan beneficios globales.
 **Artefactos Divinos (Clave para la Progresión):**
     *   Deben colocarse en el **Templo de la Diosa**.
-    *   Al colocarlos, la Diosa recupera poder y te otorga **Habilidades de Campo** (Similar a los "Movimientos HM" en Pokémon, aumento de stats o desbloquea mapas, etc).
+    *   Al colocarlos, la Diosa recupera poder y te otorga **Habilidades de Campo** (Similar a los MO de Pokémon, aumento de stats o desbloquea mapas, etc).
     *   **Ejemplos:** Cruzar mares de lava, romper rocas gigantes, abrir puertas selladas, curar la corrupción del mapa.
 
 ---
-Elementos (El Ciclo)
+## Elementos (El Ciclo)
 
 ### Lógica de las Interacciones (Para que tenga sentido)
 
@@ -192,8 +235,8 @@ Para que esta tabla funcione sin parecer al azar, aquí está el razonamiento de
 *   **✨ Luz (Sol/Yang):** De la Diosa y NPCs sagrados.
 *   **🌑 Oscuridad (Luna/Yin):** Del Rey Demonio y enemigos redimidos.
 
-Estos elementos no tienen desventajas contra ningun otro elemento salvo su contra parte.
-Oscuridad es debil contra Luz y Luz es debil contra Oscuridad, pero tienen ventaja contra todo lo elemental normal.
+Estos elementos no tienen desventajas contra ningún otro elemento salvo con su contra parte.
+Oscuridad es débil contra Luz y Luz es débil contra Oscuridad, pero tienen ventaja contra todo lo elemental normal.
 
 
 ---
@@ -203,13 +246,14 @@ Oscuridad es debil contra Luz y Luz es debil contra Oscuridad, pero tienen venta
 1.  **Exploración y Mazmorras:** Buscar Artefactos y pelear monstruos(estilo aun por ver)
 2.  **Minijuego de Relaciones (H-Scene):**
     *   Desbloqueado al Corazón 6.
+    *   El jugador siempre podrá optar por saltar las HS si así lo desea.
     *   Animaciones QTE con botones y gestión de barras.
     *   **Mejoras:** Desbloqueas buffs sexuales (Resistencia mágica, Fuerza, Tamaño, etc.) que se aplican al minijuego y pasivamente al personaje con los **Artefactos**.
 3.  **Minijuegos de Recompensa:**
     *   **🎣 Pesca (Estilo Aurelia):** Línea tensable con botones.
     *   **🃏 Cartas (Estilo Triple Triad):** Encontradas explorando.
-    *   **🎈 Frozem Fruit / Balloons:** Plataforma y explosión.
-    *   **⌨️ Typing Combat:** Escribir palabras para cargar la barra de victoria.
+    *   **🎈 Frozen Fruit / Balloons:** Plataforma y explosión.
+    *   **⌨️ Typing Combat:** Escribir palabras para cargar la barra de victoria. (nota: pensar lógica, ej: practicando hechizos)
 ---
 
 ## Finales y Objetivos Finales
@@ -219,10 +263,10 @@ Destruyes al Rey Demonio y expulsas la oscuridad. El mundo se salva bajo la Luz 
 
 ### El Final Verdadero: La Confluencia
 Logras que la Luz y la Oscuridad vivan en armonía.
-*   **Condición:** Convencer al Rey Demonio y salvar a todos los Dioses Hijos sin matarlos.
+*   **Condición:** Convencer al Rey Demonio y salvar a todos los Dioses Hijos de la Luz sin matar a los Dioses Hijos de la Oscuridad.
 *   **Recompensas (H):**
     *   **5 Summons de Luz:** De los dioses liberados.
-    *   **5 Sumons de Oscuridad:** De los demonios redimidos.
+    *   **5 Summons de Oscuridad:** De los demonios redimidos.
     *   **Romance Supremo:** Puedes ligar con el **Rey Demonio** (si salvaste a sus hijos) y con la **Diosa de la Luz** (si salvaste a los suyos).
     *   Requisito: Cumplir misiones difíciles específicas para cada Dios y llenar sus corazones.
 
@@ -247,42 +291,3 @@ Para los ataques de área o posición, se recomienda usar un sistema de **Bitmas
     
 - El `CombatManager` debe ser un Singleton que reciba el `Loadout` (3 Summons + 6 Runas + 6 Magias + 6 Consumibles) antes de cargar la escena de batalla.
     
-
----
-## El Personaje Jugador (Protagonista)
-
-Además de comandar Summons, el protagonista tiene sus propias estadísticas para interactuar con el mundo fuera del combate.
-
-### Atributos Principales (Stats)
-*   **Mente:** Influencia diálogos, labia y capacidad de convencimiento. (Sirve para los diálogos)
-*   **Cuerpo:** Fuerza para mover objetos pesados y resistencia física. (Sirve para el sexo)
-*   **Magia:** Mana y capacidad para usar hechizos fuera de combate (Sirve para el combate y mecánicas del juego).
-
-
-Quiero crear algo de subir que sea facil, pero que tome un poco de tiempo, como que 
-los estats van de 1 a 5, pero que subir 1 punto cueste un poco, pero que al tener varios summons al nivel maximo, puedas tener al personaje 5 en todo. no me interesa que sea muy dificil de maxear el juego, porque denuevo es todo sobre una progresion horizontal, yo quiero que maxie las rutas, conosca lospersonajes, sea facil de jugar la historia y las peleas sean el core.
-
-Quizas podria armar mas adelante puzzles de como vencer a tal enemigo con estos poderes y asi, para crear mas desafios.
-
----
-## Sistema de NPCs y Summons (El Motor del Juego)
-
-Cada NPC tiene una vida en el pueblo, pero su fe proyecta un **Summon** que pelea contigo. Relación medida en **6 Corazones**.
-
-### Tabla de Progresión del Summon
-
-| Corazón  | Desbloqueo       | Efecto en el Summon                                                                                                                                                                                                                             |
-| :------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **❤️ 1** | **Despertar**    | Se une al equipo. Gana **1 Elemento Aleatorio** (de 5). Aprende 1er poder.                                                                                                                                                                      |
-| **❤️ 2** | **Vínculo**      | Gana **2do Elemento Aleatorio**. Aprende 2do poder.                                                                                                                                                                                             |
-| **❤️ 3** | **Evolución 1**  | Gana **3er Elemento Aleatorio**. Aprende 3er poder. <br>**Evoluciona** (Nuevo sprite, +Stats). <br>**1 Ranura de Runa** (Para equipar objetos). <br>                                                                                            |
-| **❤️ 4** | **Maestría**     | Gana **4to Elemento Aleatorio**.  Gana una pasiva.                                                                                                                                                                                              |
-| **❤️ 5** | **Omnielemento** | Gana el **5to y último Elemento**. Ahora domina todos los elementos comunes.Aprende 4to poder.                                                                                                                                                  |
-| **❤️ 6** | **Fanatismo**    |  **2da Evolución** (Aspecto Divino/Demoníaco, ++Stats). <br> **2da Ranura de Runa** (Total: 2). <br> **Intercambio de Esencia:** Permite swappear elementos/pasivas con otros Nivel 6. <br> **Desbloqueo H:** Escena sexual y minijuego íntimo. |
-
-### Reglas de los Summons
-*   **Tipos:** Fijos al nacer (Atacante, Defensor, Soporte). No cambian.
-*   **Elementos:** Aleatorios al subir de nivel. Al tener los 5 desbloqueados, **puedes cambiar libremente el elemento activo fuera de combate** para adaptarte a la misión.
-*   **Intercambio:** Solo al Nivel 6 puedes cambiar los poderes.
-
----
