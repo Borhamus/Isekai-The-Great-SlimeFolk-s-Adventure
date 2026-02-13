@@ -8,31 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2d12678261f4eab",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "03_Recursos/EstrellaElemental.png"
-              },
-              "icon": "lucide-image",
-              "title": "EstrellaElemental"
-            }
-          },
-          {
             "id": "646b003deee798ab",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "03_Recursos/Medabot Sistem.png"
+                "file": "00_Documentacion/04.Deck Concept.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Medabot Sistem"
+              "icon": "lucide-file",
+              "title": "04.Deck Concept"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,13 +185,13 @@
   },
   "active": "646b003deee798ab",
   "lastOpenFiles": [
+    "00_Documentacion/02.Ideas para Characters Dateables.md",
+    "00_Documentacion/03.Summons DataSheet.md",
+    "00_Documentacion/01.GDD.md",
     "03_Recursos/EstrellaElemental.png",
     "03_Recursos/Medabot Sistem.png",
     "00_Documentacion/04.Deck Concept.md",
     "05_Recursos/Imagenes/Sistema de Seleccion de Heroes.png",
-    "00_Documentacion/03.Summons DataSheet.md",
-    "00_Documentacion/02.Ideas para Characters Dateables.md",
-    "00_Documentacion/01.GDD.md",
     "01_Entidades/Primer Set Dateables/Lezzy - La chica Goblin.md",
     "01_Entidades/Diosa de la Luz.md",
     "01_Entidades/Primer Set Dateables",
