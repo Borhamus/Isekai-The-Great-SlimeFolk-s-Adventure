@@ -8,20 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90cb6cecb468de9b",
+            "id": "c2d12678261f4eab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "GDD.md",
-                "mode": "source",
-                "source": false
+                "file": "03_Recursos/EstrellaElemental.png"
               },
-              "icon": "lucide-file",
-              "title": "GDD"
+              "icon": "lucide-image",
+              "title": "EstrellaElemental"
+            }
+          },
+          {
+            "id": "646b003deee798ab",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "03_Recursos/Medabot Sistem.png"
+              },
+              "icon": "lucide-image",
+              "title": "Medabot Sistem"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
     "id": "ed3ba3178a04d083",
@@ -183,31 +194,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "90cb6cecb468de9b",
+  "active": "646b003deee798ab",
   "lastOpenFiles": [
-    "Concept para Construir Deck.md",
-    "GDD.md",
-    "04_Desarrollo_Godot/Datasheet Locaciones.md",
+    "03_Recursos/EstrellaElemental.png",
+    "03_Recursos/Medabot Sistem.png",
+    "00_Documentacion/04.Deck Concept.md",
+    "05_Recursos/Imagenes/Sistema de Seleccion de Heroes.png",
+    "00_Documentacion/03.Summons DataSheet.md",
+    "00_Documentacion/02.Ideas para Characters Dateables.md",
+    "00_Documentacion/01.GDD.md",
+    "01_Entidades/Primer Set Dateables/Lezzy - La chica Goblin.md",
+    "01_Entidades/Diosa de la Luz.md",
+    "01_Entidades/Primer Set Dateables",
+    "02_Mundo_Lore_Y_Capitulos/Capitulo 1/Inicio.md",
     "04_Desarrollo_Godot/NPC Datable datasheet.md",
+    "04_Desarrollo_Godot/Datasheet Locaciones.md",
     "Inventory System.md",
-    "03_Mundo_y_Lore/Historias/Inicio.md",
-    "05_Recursos",
+    "03_Recursos",
     "04_Desarrollo_Godot",
-    "03_Mundo_y_Lore",
+    "02_Mundo_Lore_Y_Capitulos",
     "02_Inventario_y_progreso",
     "01_Entidades",
-    "00_Sistemas_Core",
+    "00_Documentacion",
     "nombre.md",
-    "03_Mundo_y_Lore/Historias",
-    "05_Recursos/Imagenes/Medabot Sistem.png",
-    "05_Recursos/Imagenes/Sistema de Seleccion de Heroes.png",
+    "02_Mundo_Lore_Y_Capitulos/Capitulo 1",
     "2026-02-09.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "01_Entidades/Personajes/Lezzy - La chica Goblin.md",
-    "05_Recursos/Imagenes/EstrellaElemental.png",
-    "05_Recursos/Imagenes",
-    "01_Entidades/Personajes/Diosa.md",
+    "03_Recursos/Imagenes",
     "GDD 2.md",
     "GDD - General.md",
     "01_Entidades/Personajes"
